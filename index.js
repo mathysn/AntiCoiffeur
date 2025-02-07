@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const { Client, GatewayIntentBits, Partials, Collection } = require('discord.js');
 
 const { Guilds, GuildMembers, GuildMessages, MessageContent } = GatewayIntentBits;
