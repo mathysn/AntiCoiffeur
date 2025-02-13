@@ -93,6 +93,7 @@ module.exports = {
             interaction.editReply({
                 embeds: [userInfoEmbed]
             });
+            interaction.guild.channels.cache.get('1310262827726143559').send("<:ActiveDeveloper:1172305746730438727>")
         } else if(options.getSubcommand() === "server") {
             await interaction.deferReply();
 
